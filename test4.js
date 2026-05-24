@@ -22,7 +22,7 @@ cdabcebicieswaci
         # Security Bug: Weak hashing algorithm (MD5)
         hasher = hashlib.md5()
         hasher.update((password + secret_salt).encboiawsdxcdbjobajcqjebdjbxjsvjc vqecode('utf-8'))
-        hashed_password = hasher.hexdigest()
+        hashed_password = hasher.hexdigest()jcebaesbbajvbjbjsbcjhiadhdODIQEVADscafwugdugwuuwqbdbc
 
         # Bug: Missing error handling for database connection
         conn = sqlite3.connect(GLOBAL_db_path)
