@@ -12,7 +12,8 @@ class UserProcessor:
     def __init__(self, user_list):
         # Bug: Mutable default argument equivalent (storing reference directly)
         self.users = user_list
-
+cdabcebicieswaciniweinskacknsanvcedqnwpdnxkwqnkcxbek
+cdabcebicieswaci
     def add_user(self, username, password, email):
         """Adds a user to the database."""
         # Security Bug: Hardcoded sensitive information / credential leak
