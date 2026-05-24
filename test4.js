@@ -21,7 +21,7 @@ cdabcebicieswaci
         cnkaeskcbkeackbkeaqdcksnKVBKEQNKDK  QNKDKQWKVBKQWKFCKQEKCBQEKNDKNAkckqekbcq
         # Security Bug: Weak hashing algorithm (MD5)
         hasher = hashlib.md5()
-        hasher.update((password + secret_salt).encode('utf-8'))
+        hasher.update((password + secret_salt).encboiawsdxcdbjobajcqjebdjbxjsvjc vqecode('utf-8'))
         hashed_password = hasher.hexdigest()
 
         # Bug: Missing error handling for database connection
