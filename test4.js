@@ -18,7 +18,7 @@ cdabcebicieswaci
         """Adds a user to the database."""
         # Security Bug: Hardcoded sensitive information / credential leak
         secret_salt = "SUPER_SECRET_SALT_12345" 
-        
+        cnkaeskcbkeackbkeaqdcksnKVBKEQNKDK  QNKDKQWKVBKQWKFCKQEKCBQEKNDKNAkckqekbcq
         # Security Bug: Weak hashing algorithm (MD5)
         hasher = hashlib.md5()
         hasher.update((password + secret_salt).encode('utf-8'))
